@@ -34,3 +34,18 @@ To systematically secure the environment, the 41 reviewed devices have been cate
 ## 📂 Repository Structure
 * `/artifacts` - Contains the full data analysis spreadsheets and formal compliance report.
 * `/assets` - High-resolution technical architecture and roadmap infographics.
+
+---
+
+## 🔍 Assessment Scope
+To maintain a targeted evaluation, the scope of this gap analysis was strictly limited to the following core infrastructure components:
+*   **Production Environment:** AWS Production VPC and associated security groups.
+*   **Identity & Access:** IAM role configurations, administrative jumpbox access, and root account policies.
+*   **Data Assets:** Databases housing sensitive consumer financial records and PII.
+
+---
+
+## 📈 Phase 2 & Continuous Monitoring
+Security compliance is an ongoing lifecycle. Moving forward, the strategic plan includes:
+*   **Automated Drift Detection:** Deploying AWS Config rules to alert on any unauthorized changes to network security groups.
+*   **Delta-Assessment:** Scheduling a targeted follow-up review in 6 months to verify the efficacy of the newly implemented MFA and micro-segmentation controls.
