@@ -11,7 +11,7 @@ This repository contains a comprehensive security compliance review evaluating a
 ### 1. Flat Network Topology & Missing NACL Isolation
 A critical vulnerability was identified within our AWS environment. Microservices currently share a flat, default security group with unrestricted intra-group traffic allowed. The architecture lacks Network Access Control List (NACL) isolation at the subnet level, presenting a significant lateral movement risk.
 
-![AWS VPC Network Topology](watermarked_img_4128263125331710032.png)
+![AWS VPC Network Topology](watermarked_img_4128263125331710032.jpg)
 
 ### 2. Identity & Access Management (IAM) Vulnerabilities
 * **Okta Directory Gaps:** Legacy administrative tools and standalone consoles are entirely disconnected from central Single Sign-On (SSO) and Multi-Factor Authentication (MFA) protocols.
